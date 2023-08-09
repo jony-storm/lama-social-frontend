@@ -1,0 +1,85 @@
+.signupWrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: rgb(238, 239, 238);
+    padding: 0 15%;
+    width: 100%;
+    height: 100vh;
+}
+
+.signupLeft {
+    flex: 1;
+}
+
+.logo {
+    color: dodgerblue;
+    font-size: 30px;
+    font-weight: 800;
+    margin-bottom: 10px;
+}
+
+.logoText {
+    color: rgb(48, 48, 48);
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.signupRight {
+    flex: 1;
+}
+
+.signupForm {
+    flex: 1;
+    width: 350px;
+    height: auto;
+    background-color: rgb(255, 255, 255);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.signupFormInput {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+    border: 1px solid rgb(170, 169, 169);
+}
+
+.signupFormInput:focus {
+    outline: none;
+}
+
+.btn {
+    width: 100%;
+    padding: 10px 0;
+    font-weight: bold;
+    border: none;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+
+.btn:focus {
+    outline: none;
+}
+
+.btnDisabled {
+    background-color: rgb(222, 222, 222);
+    color: rgb(63, 63, 63);
+    cursor: not-allowed;
+}
+
+.btnEnabled {
+    background-color: dodgerblue;
+    color: white;
+    cursor: pointer;
+}
+
+.btnEnabled:hover {
+    opacity: 0.9;
+}
+
+.btnLogin {
+    background-color: rgb(84, 138, 5);
+}
